@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* <-- header --> */
+.header{
+    width:100%;
+    background-color: rgb(14, 38, 47);
+}
+
+.contenedor1{
+    width:90%;
+    margin:0 auto;
+}
+
+.container{
+    width: 90%;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.container .navegacion > a{
+     color:white;
+     text-decoration: none;
+     padding-left: 2em;
+     font-family:'Courier New', Courier, monospace;
+}
+
+.navegacion a:hover{
+    color: black;
+}
+/* <-- cierre de mi  header --> */
+
+/* <-- hero --> */
+.hero{
+    background-image: url(../img/m.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:70vh;
+}
+
+.padre{
+    position:relative;
+}
+
+.presentation{
+    color: white;
+    padding-top: 1em;
+
+}
+
+.presentation h1{
+    font-size: 60px ;
+}
+
+.presentation  p{
+    color: white;
+    font-size: 30px ;
+}
+.btn{
+    margin-top: 50px;
+    background-color: black;
+    color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.capa{
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color:rgba(0,0,0,0.5);
+}
+
+.contenedorm {
+    text-decoration: none;
+     padding-left: 2em;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+/* Estilo para la imagen */
+.imagen {
+    max-width:600px; 
+    margin-right:20px; 
+    width:70%;
+}
+/* Estilo para la tabla */
+table {
+    border-collapse: collapse; /* Elimina los espacios entre celdas */
+    width:50%; /* Ancho de la tabla */
+}
+
+
+table, th, td {
+    height: 70px;
+    border:5px solid black; /* Bordes de la tabla */
+    background-color: rgb(219, 250, 250);
+
+}
+
+
+th, td {
+    padding: 15px; /* Relleno en las celdas */
+    text-align:center; /* Alineación del texto */
+    font-size: 40px;
+}
+
+.contenedor2{
+    color: white;
+}
+
+.contenedor2{
+    width:90%;
+    margin:0 auto;
+}
+
+.super{
+    background-color:black;
+}
+
+.contenedor2 > h1{
+    font-size: 50px ;
+}
+
+.contenedor2 > p{
+    font-size: 30px ;
+}
+
+.imagen{
+    display: inline-block; /* Coloca las imágenes una al lado de la otra */
+    margin-right: 10px; /* Espacio entre las imágenes */
+}
+
+.presentation3{
+    background-color: black ;
+}
+.presentation3 h1{
+    color:white;
+}
+.presentation3 p{
+    color: white;
+}
+
+.contenedor3{
+    width:90%;
+    margin:0 auto;
+}
+.contenedor3 h1{
+    font-size: 40px ;
+}
+
+.contenedor3 p{
+    font-size:30px;
+}
+
+.presentacion4 {
+    background-color: blue;
+    background-image: url(../img/fondo4.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color:white;
+    
+}
+
+.contenedor4{
+    font-size: 20px ;
+}
+
